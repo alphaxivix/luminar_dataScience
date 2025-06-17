@@ -10,7 +10,9 @@ def flcm(x , y):
     while True :
         if greater_num % x == 0 and greater_num % y == 0:
             lcm = greater_num
+            break
         greater_num += 1
+
     return lcm
 
 num1 = int(input("Enter 1st number:"))
